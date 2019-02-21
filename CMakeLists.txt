@@ -12,10 +12,10 @@ enable_language(CUDA)
 
 set(CUDA_NVCC_FLAGS -gencode arch=compute_61,code=sm_61)
 
-file(GLOB CuHeaders *.h)
+file(GLOB CuHeaders src/*.h)
 
-add_executable(ReduceMaxWithIndex main.cu ${CuHeaders})
+add_executable(ReduceMaxWithIndex src/main.cu ${CuHeaders})
 
-add_executable(ReduceMaxWithIndexxCpu MaxElement.cpp)
+add_executable(ReduceMaxWithIndexxCpu src/MaxElement.cpp)
 
 
