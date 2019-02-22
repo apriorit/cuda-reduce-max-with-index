@@ -1,5 +1,5 @@
 ## Introduction
-This sample was created to demonstrate and measure speed of searching for max element and its index in CUDA with different algorithms comparing to C++ SLT max_element function.
+This sample was created to demonstrate and measure speed of searching for max element and its index in CUDA with different algorithms comparing to C++ STL max_element function.
 ## Build
  * Download and install [Visual Studio 2017](https://www.visualstudio.com/products/visual-studio-community-vs)
  * Download and install CUDA
